@@ -12,33 +12,33 @@ Resultado: Entrega la lista de vehículos a la que el usuario que ejecuta la con
 Código HTTP Respuesta: 200
 
 
-Método HTTP: GET
-URL: /cars/{id}
-Resultado: Entrega la información del vehículo con ID = id
+Método HTTP: GET\
+URL: /cars/{id}\
+Resultado: Entrega la información del vehículo con ID = id\
 Código HTTP Respuesta: 200 (Si existe el vehículo), 404 (si no existe).
 
 
-Método HTTP: GET
-URL: /cars
-QueryString: plate,year,color. Permite pasar las variables patente, año y color para filtrar la búsqueda.
-Resultado: Entrega la información de los vehículos que coincidan con la búsqueda
+Método HTTP: GET\
+URL: /cars\
+QueryString: plate,year,color. Permite pasar las variables patente, año y color para filtrar la búsqueda.\
+Resultado: Entrega la información de los vehículos que coincidan con la búsqueda\
 Código HTTP Respuesta: 200 (Si existe el vehículo), 404 (si no existe).
 
 
 # CrearVehiculo
 
-Método HTTP: POST
-URL: /cars
-Params: plate, year, color
-Resultado: Entrega la información del vehículo recien creado.
+Método HTTP: POST\
+URL: /cars\
+Params: plate, year, color\
+Resultado: Entrega la información del vehículo recien creado.\
 Código HTTP Respuesta: 201
 
 
 
 # ModificarVehiculo
 
-Método HTTP: PUT
-URL: /cars/{id}
-Params: plate, year, color
-Resultado: Entrega la información del vehículo con ID = id recién actualizado.
+Método HTTP: PUT\
+URL: /cars/{id}\
+Params: plate, year, color\
+Resultado: Entrega la información del vehículo con ID = id recién actualizado.\
 Código HTTP Respuesta: 202
