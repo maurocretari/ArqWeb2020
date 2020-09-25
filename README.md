@@ -6,9 +6,9 @@ Permite el Alta, Baja y Modificación de vehículos via API como así también l
 
 # ObtenerVehiculo
 
-Método HTTP: GET
-URL: /cars
-Resultado: Entrega la lista de vehículos a la que el usuario que ejecuta la consulta tiene acceso.
+Método HTTP: GET\
+URL: /cars\
+Resultado: Entrega la lista de vehículos a la que el usuario que ejecuta la consulta tiene acceso.\
 Código HTTP Respuesta: 200
 
 
