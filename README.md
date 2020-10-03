@@ -8,7 +8,7 @@ Permite el Alta, Baja y Modificación de vehículos via API como así también l
 
 Método HTTP: GET\
 URL: /cars\
-QueryString (opcional): userid\ 
+QueryString (opcional): userid\
 Resultado: Si no se especifica el userid entrega la lista de vehículos a la que el usuario que ejecuta la consulta tiene acceso, caso contrario entrega la lista del usuario con ID = userid\
 Código HTTP Respuesta: 200
 
